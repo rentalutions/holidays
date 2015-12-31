@@ -57,17 +57,10 @@ months:
     wday: 4
     regions: [federal_reserve]
   12: 
-  - name: Christmas Eve
-    regions: [federal_reserve]
-    mday: 24
-    observed: to_monday_if_sunday
   - name: Christmas Day
     regions: [federal_reserve]
     mday: 25
     observed: to_monday_if_sunday
-  - name: New Year's Eve
-    regions: [federal_reserve]
-    mday: 31
 methods:
   us_inauguration_day: |
     # January 20, every fourth year, following Presidential election
